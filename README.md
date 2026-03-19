@@ -64,9 +64,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Download the dataset
-The dataset is not included in this repository. Download the **Alzheimer MRI Dataset** from Kaggle:
-
-🔗 https://www.kaggle.com/datasets/tourist55/alzheimers-dataset-4-class-of-images
+The dataset is not included in this repository. The dataset was provided by the course. Assuming you have access to it:
 
 Extract the contents into `data/raw/` so the directory contains three subfolders: `MildImpairment/`, `ModerateImpairment/`, and `NoImpairment/`.
 
