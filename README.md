@@ -64,7 +64,11 @@ pip install -r requirements.txt
 ```
 
 ### 3. Download the dataset
-The dataset is not included in this repository. The dataset was provided by the course. Assuming you have access to it:
+The MRI images used in this project are a subset of the
+[Alzheimer's Multiclass Dataset](https://www.kaggle.com/datasets/aryansinghal10/alzheimers-multiclass-dataset-equal-and-augmented)
+by Aryan Singhal, available on Kaggle. Three classes were used:
+`MildImpairment`, `ModerateImpairment`, and `NoImpairment` (5,076 images total).
+The dataset is not included in this repository — download it from the link above.
 
 Extract the contents into `data/raw/` so the directory contains three subfolders: `MildImpairment/`, `ModerateImpairment/`, and `NoImpairment/`.
 
